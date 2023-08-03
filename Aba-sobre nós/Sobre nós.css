@@ -1,0 +1,172 @@
+body{
+    font-family: 'Arvo', serif;
+    background-image: url(Pupper\ Party\ Graphic\ T-Shirt\ by\ missdaisydee.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    height: 100vh;
+}
+.cabecalho{
+    background-color: #337def;
+    color:#ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    padding: 1%;
+}
+
+.link-menu{
+    text-decoration: none;
+    color: rgb(238, 143, 26);
+    padding: 15px 5px;
+    display: block;
+}
+
+.cabecalho-icone{
+    background-color: #337def;
+    color:#ee8f1a;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    padding: 1%;
+}
+
+.img-menu-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 30px;
+}
+
+.menu-title{
+    float: right;
+    margin-top: 12px;
+    margin-left: 10px;
+    color: #ee8f1a;
+    font-size: 1cm;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    margin-top: 250px;
+}
+
+li {
+    padding: 15px;
+    font-size: 6mm;
+}
+
+input[type="checkbox"]:checked~nav {
+    transform: translate(350px);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+nav {
+    background-color: #337def;
+    width: 300px;
+    height: 180vh;
+    padding: 5px;
+    position: absolute;
+    left: -360px;
+    transition: all .5s;
+    top: 10px;
+}
+
+.link-menu:hover{
+    background-color: rgb(238, 143, 26);
+    color: rgb(51, 125, 239);
+}
+
+label {
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.imagem-do-cabecalho{
+    width: 15%;
+    height: 15%;
+    padding: 0 65px;
+    margin-right: 40%;
+}
+
+.search-box{
+    position: absolute;
+    right: 0%;
+    background: #ee8f1a;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7%;
+    margin-top: 60px;
+    width: 38%;
+}
+
+.search-bnt{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.estudante-titulo{
+    padding: 5px;
+    background-color: #ee8f1a;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 9mm;
+    align-items: center;
+}
+
+.estudante-imagem{
+    width: 530px;
+    border: 28px solid #ee8f1a;
+}
+
+.estudante-icone{
+    width: 56px;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+.estudante-todos{
+    display: flex;
+}
+
+.t1{
+    background-color: #ee8f1a;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 9mm;
+    align-items: center;
+}
+
+.rodapé{
+    background-color:#337def;
+    text-align: center;
+}
+
+.rodapé-imagem-1{
+    height: 75px;
+    margin: 5px;
+}
+
+.rodapé-imagem-2{
+    height: 60px;
+    margin: 5px;
+    margin-left: 22px;
+}
